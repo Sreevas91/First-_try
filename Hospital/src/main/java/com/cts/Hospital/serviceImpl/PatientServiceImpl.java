@@ -25,7 +25,7 @@ public class PatientServiceImpl implements PatientService {
 
 	@Override
 	public void savePatient(Patient patient) {
-		// TODO Auto-generated method stub
+
 		this.patientRepository.save(patient);
 	}
 
@@ -44,6 +44,13 @@ public class PatientServiceImpl implements PatientService {
 }
 
 	@Override
+	public void deletePatientById(long id) {
+		// TODO Auto-generated method stub
+		
+	}}
+
+/*	@Override
 	public void deletePatientById(long id) {	
 		patientRepository.PatientById(id);
 	}}
+*/
